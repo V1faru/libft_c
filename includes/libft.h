@@ -6,7 +6,7 @@
 /*   By: amurtone <amurtone@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/16 12:53:08 by amurtone          #+#    #+#             */
-/*   Updated: 2020/03/05 17:27:10 by amurtone         ###   ########.fr       */
+/*   Updated: 2020/09/11 17:13:27 by amurtone         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <unistd.h>
 # include <sys/types.h>
 # include <sys/uio.h>
+# include "ft_printf.h"
 
 # define GNL_BUFF_SIZE 1
 # define GNL_MAX_FD 1024

@@ -6,7 +6,7 @@
 /*   By: amurtone <amurtone@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/03/02 16:06:16 by amurtone          #+#    #+#             */
-/*   Updated: 2020/03/05 17:23:10 by amurtone         ###   ########.fr       */
+/*   Updated: 2020/09/11 17:14:10 by amurtone         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,6 +87,7 @@ typedef	struct			s_struct2
 	int					dot;
 }						t_struct2;
 
+int						ft_printf(const char *fmt, ...);
 void					ft_error(void);
 void					writeblanks(int n);
 void					writezeros(int n);
